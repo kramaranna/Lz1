@@ -4,8 +4,8 @@ using namespace std;
 
 int main() 
 {
-    double a = 5, b = 9, c = -2.5;
-    double f = (-b-sqrt(b*b+4*a*c))/(2*a)+fabs(c);
+    double a = 5, b = 9, c = -2.5, f;
+    f = (-b-sqrt(b*b+4*a*c))/(2*a)+fabs(c);
 
     cout << "f = " << f << endl;
     return 0;
